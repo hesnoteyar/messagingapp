@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".registerscreenA">
+    tools:context=".registerscreenB">
 
 
     <RelativeLayout
-        android:id="@+id/panel2"
+        android:id="@+id/panel3"
         android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:layout_marginTop="200sp"
+        android:layout_height="600dp"
+        android:layout_marginTop="150sp"
         android:background="@drawable/rounded_corners_panel">
 
         <TextView
@@ -22,47 +22,57 @@
             android:layout_marginTop="30dp"
             android:textColor="#000000"
             android:fontFamily="@font/davidlibre"
-            android:text="Create Account"
+            android:text="Personal Information"
             android:textSize="28dp" />
 
         <EditText
-            android:id="@+id/usernameET"
+            android:id="@+id/firstnameET"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_below="@+id/createaccount"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:hint="Username"
+            android:hint="Firstname"
             android:fontFamily="@font/davidlibre"/>
 
         <EditText
-            android:id="@+id/emailET"
+            android:id="@+id/middlenameET"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/usernameET"
+            android:layout_below="@+id/firstnameET"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:hint="Email"
+            android:hint="Middlename"
             android:fontFamily="@font/davidlibre"/>
 
         <EditText
-            android:id="@+id/passwordET"
+            android:id="@+id/lastnameET"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/emailET"
+            android:layout_below="@+id/middlenameET"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:hint="Password"
+            android:hint="Lastname"
             android:fontFamily="@font/davidlibre"/>
 
         <EditText
-            android:id="@+id/retypeET"
+            android:id="@+id/prefixET"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:layout_below="@+id/passwordET"
+            android:layout_below="@+id/lastnameET"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:hint="Re-type Password"
+            android:hint="Prefix"
+            android:fontFamily="@font/davidlibre"/>
+
+        <EditText
+            android:id="@+id/genderET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/prefixET"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:hint="Gender"
             android:fontFamily="@font/davidlibre"/>
 
         <Button
@@ -76,7 +86,7 @@
             android:backgroundTint="#FCA311"
             android:textColor="#FFFFFF"
             android:fontFamily="@font/davidlibre"
-            android:layout_below="@+id/retypeET"
+            android:layout_below="@+id/genderET"
             android:layout_centerHorizontal="true"/>
 
         <TextView

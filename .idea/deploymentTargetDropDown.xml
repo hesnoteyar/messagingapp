@@ -5,6 +5,12 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="registerscreenA">
+        <State />
+      </entry>
+      <entry key="registerscreenB">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
