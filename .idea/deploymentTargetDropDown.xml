@@ -5,6 +5,9 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="authentication">
+        <State />
+      </entry>
       <entry key="registerscreenA">
         <State />
       </entry>
