@@ -1,4 +1,4 @@
-package com.example.messaging_app;
+ package com.example.messaging_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".loginpage">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="230sp"
+        android:background="@drawable/rounded_corners_panel">
+        
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="WELCOME"
+            android:fontFamily="@font/davidlibre"
+            android:textSize="28dp"/>
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:fontFamily="@font/davidlibre"
+            android:hint="Email"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/email"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:hint="Password"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/password"
+            android:textSize="20dp"
+            android:fontFamily="@font/davidlibre"
+            android:layout_below="@+id/emailET"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/signinBTN"
+            android:background="@drawable/rounded_corners_btn"
+            android:layout_width="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="15dp"
+            android:textColor="#FCA311"
+            android:fontFamily="@font/davidlibre"
+            android:layout_below="@+id/passwordET"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/forgotpasswordTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_below="@+id/signinBTN"
+            android:fontFamily="@font/davidlibre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/createaccBTN"
+            android:background="@drawable/rounded_corners_btn"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="15dp"
+            android:backgroundTint="#FCA311"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/davidlibre"
+            android:layout_below="@+id/forgotpasswordTV"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
