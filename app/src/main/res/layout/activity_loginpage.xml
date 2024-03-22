@@ -10,19 +10,19 @@
     <RelativeLayout
         android:id="@+id/panel1"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:layout_marginTop="230sp"
+        android:layout_height="450dp"
+        android:layout_marginTop="290sp"
         android:background="@drawable/rounded_corners_panel">
-        
+
         <TextView
             android:id="@+id/welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:layout_marginLeft="40dp"
-            android:text="WELCOME"
+            android:layout_marginTop="30dp"
             android:fontFamily="@font/davidlibre"
-            android:textSize="28dp"/>
+            android:text="WELCOME"
+            android:textSize="28dp" />
 
         <EditText
             android:id="@+id/emailET"
@@ -30,7 +30,7 @@
             android:layout_height="50dp"
             android:layout_below="@+id/welcome"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="49dp"
+            android:layout_marginTop="29dp"
             android:fontFamily="@font/davidlibre"
             android:hint="Email"
             android:drawablePadding="8dp"
