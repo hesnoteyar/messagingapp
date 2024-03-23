@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".forgotverification">
+
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:background="@drawable/rounded_corners_panel_full"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/davidlibre"
+            android:text="Password reset link\nsent to your email"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/backtosigninBTN"
+            android:background="@drawable/rounded_corners_btn"
+            android:layout_width="300dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="wrap_content"
+            android:text="Back to Sign In"
+            android:textSize="15dp"
+            android:backgroundTint="#FCA311"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/davidlibre"
+            android:layout_below="@+id/forgot"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/email2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>
